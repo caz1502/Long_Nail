@@ -12,61 +12,54 @@ const typeDefs = gql`
     user: User
   }
 
-  type Colour {
-    _id: ID!
-    name: String!
-  }
-
   type Shape {
-    _id: ID!
-    name: String!
+    _id: ID
+    name: String
   }
 
   type Service {
-    _id: ID!
-    name: String!
+    _id: ID
+    name: String
   }
 
   type Waxing {
-    _id: ID!
-    name: String!
+    _id: ID
+    name: String
     price: Int
   }
 
   type Relaxation {
-    _id: ID!
-    name: String!
+    _id: ID
+    name: String
     price: Int
   }
 
   type Acrylic {
-    _id: ID!
-    name: String!
+    _id: ID
+    name: String
     price: Int
+  }
+
+  type Colour {
+    _id: ID
+    name: String
   }
 
   type Query {
     users: [User]
     user(username: String!): User
-
-    colours:[Colour]
-    colour(name:String!):Colour
-
-    shapes:[Shape]
-    shape(name:String!):Shape
-
-    services:[Service]
-    service(name:String!):Service
-
-    waxings:[Waxing]
-    waxing(name:String!):Waxing
-
-    acrylics:[Acrylic]
-    acrylic(name:String!):Acrylic
-
-    relaxations:[Relaxation]
-    relaxation(name:String!):Relaxation
-    
+    colours: [Colour]
+    colour(name: String!): Colour
+    shapes: [Shape]
+    shape(name: String!): Shape
+    services: [Service]
+    service(name: String!): Service
+    waxings: [Waxing]
+    waxing(name: String!): Waxing
+    relaxations: [Relaxation]
+    relaxaction(name: String!): Relaxation
+    acrylics: [Acrylic]
+    Acrylic(name: String!): Acrylic
   }
 
   type Mutation {
