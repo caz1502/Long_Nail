@@ -25,7 +25,7 @@ const resolvers = {
       return Relaxation.find().populate("Relaxation");
     },
     acrylics: async () => {
-      return Service.find().populate("Acrylics");
+      return Acrylic.find().populate("Acrylic");
     },
   },
 

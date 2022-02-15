@@ -48,6 +48,7 @@ const typeDefs = gql`
   type Query {
     users: [User]
     user(username: String!): User
+  
     colours: [Colour]
     colour(name: String!): Colour
     shapes: [Shape]
@@ -59,7 +60,7 @@ const typeDefs = gql`
     relaxations: [Relaxation]
     relaxaction(name: String!): Relaxation
     acrylics: [Acrylic]
-    Acrylic(name: String!): Acrylic
+    acrylic(name: String!): Acrylic
   }
 
   type Mutation {
