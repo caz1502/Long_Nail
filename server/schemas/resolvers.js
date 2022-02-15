@@ -1,6 +1,14 @@
-const { AuthenticationError } = require('apollo-server-express');
-const { User, Colour, Shape, Service, Waxing, Relaxation, Acrylic} = require('../models');
-const { signToken } = require('../utils/auth');
+const { AuthenticationError } = require("apollo-server-express");
+const {
+  User,
+  Colour,
+  Shape,
+  Service,
+  Waxing,
+  Relaxation,
+  Acrylic,
+} = require("../models");
+const { signToken } = require("../utils/auth");
 
 const resolvers = {
   //  queries

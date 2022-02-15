@@ -20,6 +20,7 @@ const typeDefs = gql`
   type Service {
     _id: ID
     name: String
+    description:String
   }
 
   type Waxing {
@@ -48,7 +49,7 @@ const typeDefs = gql`
   type Query {
     users: [User]
     user(username: String!): User
-  
+
     colours: [Colour]
     colour(name: String!): Colour
     shapes: [Shape]
