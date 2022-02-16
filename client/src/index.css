@@ -32,10 +32,10 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+/* h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
+} */
 
 /* Grouping content
    ========================================================================== */
@@ -1086,6 +1086,8 @@ a:hover {
 .card {
   border: 1px solid #1a1a1a;
   margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .card .card-header {
@@ -1168,8 +1170,7 @@ label form [type='radio'] {
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
+  width: 95%; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -1255,8 +1256,8 @@ label form [type='radio'] {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 5rem; 
+  margin-right: 5rem;
 }
 
 [class*='col-'] {

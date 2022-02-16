@@ -1,0 +1,9 @@
+.card { 
+  width: 33em; 
+}
+
+.card-title {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
