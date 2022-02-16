@@ -15,13 +15,13 @@ const Relaxation = () => {
   const relaxations = data?.relaxations || [];
 
   return (
-    <main>
+   
       <div>
         this is the relaxtion list but wont render on its own page
         <RelaxationList relaxations={relaxations} />
       </div>
      
-    </main>
+    
   );
 };
 

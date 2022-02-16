@@ -1,0 +1,10 @@
+
+.welcome {
+
+    font-size: 60px;
+    margin-top: 20px;    
+    background-color: aquamarine;
+    width: 80vw !;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

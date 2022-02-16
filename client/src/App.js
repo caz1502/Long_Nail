@@ -14,6 +14,8 @@ import Login from './pages/Login';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Services from "./pages/Services";
+import Relaxation from "./pages/Relaxation";
+import Acrylic from './pages/Acrylic';
 
 
 
@@ -66,7 +68,16 @@ function App() {
               <Services />
             </Route>
           </div>
-
+          <div>
+            <Route exact path="/acrylic">
+              <Acrylic />
+            </Route>
+          </div>
+          <div>
+            <Route exact path="/relaxation">
+              <Relaxation />
+            </Route>
+          </div>
           <Footer />
         </div>
       </Router>
