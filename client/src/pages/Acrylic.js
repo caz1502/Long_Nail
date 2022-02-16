@@ -1,13 +1,26 @@
-import { React } from "react";
+import React from "react";
 
-const Acrylics = () => {
+// Import the `useQuery()` hook from Apollo Client
+import { useQuery } from "@apollo/client";
+import AcrylicsList from "../components/AcrylicsList";
+
+// Import the query we are going to execute from its file
+import { QUERY_ALL_ACRYLIC } from "../utils/queries";
+
+const Acrylic = () => {
+  // Execute the query on component load
+  const { data } = useQuery(QUERY_ALL_ACRYLIC);
+
+  // Use optional chaining to check if data exists and if it has a thoughts property. If not, return an empty array to use.
+  const acrylics = data?.acrylics || [];
+
   return (
     <main>
-      <div>
-        <h1>this is the Acrylics page that will have a list with pricing </h1>
-      </div>
+      This is acrylics page, here for testing only as it should be on its own page but is when i click on acrylic the page is blank
+      <AcrylicsList acrylics={acrylics} />
+     
     </main>
   );
 };
 
-export default Acrylics;
+export default Acrylic;

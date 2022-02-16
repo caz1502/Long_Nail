@@ -26,18 +26,27 @@ const Header = () => {
               </button>
             </>
           ) : (
-              <>
-                {/* login button to take you to login */}
+            <>
+              {/* login button to take you to login */}
               <Link className="btn btn-lg btn-info m-2" to="/login">
                 Login
-                </Link>
-                {/* sign up button  */}
+              </Link>
+              {/* sign up button  */}
               <Link className="btn btn-lg btn-light m-2" to="/signup">
                 Signup
-                </Link>
-                {/* home link */}
+              </Link>
+              {/* home link */}
               <Link className="btn btn-lg btn-light m-2" to="/">
                 Home
+              </Link>
+              <Link className="btn btn-lg btn-light m-2" to="/acrylic">
+                Acrylics
+              </Link>
+              <Link className="btn btn-lg btn-light m-2" to="/services">
+                Services
+              </Link>
+              <Link className="btn btn-lg btn-light m-2" to="/relaxation">
+                Relaxation
               </Link>
             </>
           )}

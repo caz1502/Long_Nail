@@ -1,21 +1,21 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 
-const ServiceList = ({ services }) => {
- 
+const AcrylicList = ({ acrylics }) =>{
+
   return (
     <Row>
       <Col>
-        {services &&
-          services.map((service) => (
-            <Card key={service._id}>
+        {acrylics &&
+          acrylics.map((acrylic) => (
+            <Card key={acrylic._id}>
               {/* name of service */}
               <Card.Title>
-                <h1>{service.name}</h1>
+                <h1>{acrylic.name}</h1>
               </Card.Title>
               {/* description of service */}
               <Card.Text>
-                <p>{service.description}</p>
+                <p>{acrylic.price}</p>
               </Card.Text>
             </Card>
           ))}
@@ -24,4 +24,4 @@ const ServiceList = ({ services }) => {
   );
 };
 
-export default ServiceList;
+export default AcrylicList;
