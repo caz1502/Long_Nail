@@ -1,15 +1,16 @@
-.card { 
-  width: 25em; 
+.card {
+  width: 25em;
   text-align: center;
- 
-  
+   border-color: #DECBA4;
 }
-
 .card-title {
   font-weight: bolder;
   font-size: 2em;
   margin-top: 10px;
   margin-bottom: 20px;
-  
-  
+}
+
+img {
+ border-radius: 10px;
+  min-width: 300px !important;
 }
