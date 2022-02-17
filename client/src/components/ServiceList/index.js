@@ -8,8 +8,8 @@ const ServiceList = ({ services }) => {
     <Row className="align-content-center justify-space-around ">
       {services &&
         services.map((service) => (
-          <Card key={service._id}>
-            <img src={service.image} alt="" />
+          <Card key={service._id} className="serviceCard">
+            <img src={service.image} alt="" className="serviceImage"/>
             {/* name of service */}
             <Card.Title>{service.name}</Card.Title>
             {/* description of service */}

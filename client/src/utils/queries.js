@@ -32,7 +32,7 @@ export const QUERY_SINGLE_SERVICE = gql`
       _id
       name
       description
-      Image
+      image
     }
   }
 `;
@@ -60,6 +60,7 @@ export const QUERY_ALL_SHAPE = gql`
     shapes {
       _id
       name
+      image
     }
   }
 `;
@@ -69,6 +70,7 @@ export const QUERY_SINGLE_SHAPE = gql`
     shape(shapeId: $shapeId) {
       _id
       name
+      image
     }
   }
 `;

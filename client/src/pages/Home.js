@@ -17,6 +17,7 @@ const Home = () => {
       <div className="align-content-center justify-space-around ">
         <h6 style={{ textAlign: "center" }}>Our Services</h6>
         <Services />
+        
       </div>
     </div>
   );

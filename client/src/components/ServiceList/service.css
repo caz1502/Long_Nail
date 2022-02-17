@@ -1,8 +1,9 @@
-.card {
+.serviceCard {
   width: 25em;
   text-align: center;
    border-color: #DECBA4;
 }
+
 .card-title {
   font-weight: bolder;
   font-size: 2em;
@@ -10,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-img {
+.serviceImage {
  border-radius: 10px;
   min-width: 300px !important;
 }
