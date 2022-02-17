@@ -1,25 +1,23 @@
 import React from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Container, Row, Table } from "react-bootstrap";
+import "../RelaxationList/relaxation.css";
 
 const RelaxationList = ({ relaxations}) => {
   return (
-    <Row>
-      <Col>
-        {relaxations &&
-          relaxations.map((relaxation) => (
-            <Card key={relaxation._id}>
-              {/* name of service */}
-              <Card.Title>
-                <h1>{relaxation.name}</h1>
-              </Card.Title>
-              {/* description of service */}
-              <Card.Text>
-                <p>{relaxation.price}</p>
-              </Card.Text>
-            </Card>
-          ))}
-      </Col>
-    </Row>
+    <Container >
+      <Row className=" justify-space-around ">
+        <h1>Relaxation</h1>
+      </Row>
+
+      {relaxations &&
+        relaxations.map((relaxation) => (
+          <Table key={relaxation._id}>
+            {/* name of service */}
+            <th>{relaxation.name}</th>
+            <th>${relaxation.price}</th>
+          </Table>
+        ))}
+    </Container>
   );
 };
 

@@ -21,6 +21,7 @@ export const QUERY_ALL_SERVICE = gql`
       _id
       name
       description
+     
     }
   }
 `;

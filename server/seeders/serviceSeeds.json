@@ -1,14 +1,17 @@
 [
   {
     "name": "Relaxation",
-    "description": "Amazing relaxing treatments treatments, such as pedicures and manicures."
+    "description": "Amazing relaxing treatments treatments, such as pedicures and manicures.",
+    "image":"./images/lipstick.JPG"
   },
   {
     "name": "Waxing",
     "description": "Waxing is a popular form of semi-permanent hair removal,removing the hair from the root."
+    
   },
   {
     "name": "Acrylics",
     "description": "Acrylic nails are the most common artificial nail extension used on the planet"
+   
   }
 ]

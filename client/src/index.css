@@ -428,8 +428,8 @@ a {
 }
 
 a:hover {
-  color: #065b83;
-  text-decoration: underline;
+  color: brown;
+  text-decoration: none;
 }
 
 /* HEIGHT / WIDTH UTILS */
@@ -1176,7 +1176,7 @@ label form [type='radio'] {
 }
 
 .container.container-fluid {
-  width: 92%;
+  width: 95%;
 }
 
 /* FLEX CONTENT */

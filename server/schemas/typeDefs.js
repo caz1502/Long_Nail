@@ -21,6 +21,7 @@ const typeDefs = gql`
     _id: ID
     name: String
     description:String
+   
   }
 
   type Waxing {

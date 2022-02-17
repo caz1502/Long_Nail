@@ -14,9 +14,7 @@ const Acrylic = () => {
 
   return (
     <div>
-      This is acrylics page, here for testing only as it should be on its own
-      page but is when i click on acrylic the page is blank
-      <AcrylicsList acrylics={acrylics} />
+     <AcrylicsList acrylics={acrylics} />
     </div>
   );
 };

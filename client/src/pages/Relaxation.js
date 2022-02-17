@@ -14,15 +14,7 @@ const Relaxation = () => {
   // Use optional chaining to check if data exists and if it has a thoughts property. If not, return an empty array to use.
   const relaxations = data?.relaxations || [];
 
-  return (
-   
-      <div>
-        this is the relaxtion list but wont render on its own page
-        <RelaxationList relaxations={relaxations} />
-      </div>
-     
-    
-  );
+  return <RelaxationList relaxations={relaxations} />;
 };
 
 export default Relaxation;

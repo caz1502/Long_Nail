@@ -1,9 +1,15 @@
 .card { 
-  width: 33em; 
+  width: 25em; 
+  text-align: center;
+ 
+  
 }
 
 .card-title {
   font-weight: bolder;
-  font-size: x-large;
-  margin-bottom: 10px;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  
 }

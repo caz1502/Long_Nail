@@ -1,10 +1,14 @@
 
-.welcome {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-    font-size: 60px;
-    margin-top: 20px;    
-    background-color: aquamarine;
-    width: 80vw !;
-    margin-left: auto !important;
-    margin-right: auto !important;
+.jumbotron {
+  padding: 2rem 1rem; 
+  margin-bottom: 2.5rem; 
+  border-radius: .3rem;
+  text-align: center;
+  color: rgb(141, 105, 60);
+  font-family: 'Montserrat', sans-serif;
 }
+.welcome {
+  font-size: 8em;
+ }

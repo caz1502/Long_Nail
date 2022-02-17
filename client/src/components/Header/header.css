@@ -1,15 +1,6 @@
-.nav-container {
-    background:lightblue;
+.btn{
+    width: 10em;
+    background-color: #DECBA4;
+    
 }
 
-.m-0 {
-    color: orange;
-}
-
-
-
-
-
-.btn.btn-light {
-    background-color: red
-}
