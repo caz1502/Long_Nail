@@ -9,14 +9,13 @@ const Home = () => {
   return (
     <div>
       <div className="jumbotron">
-        <Container >
-          <h4>
-           Welcome to
-          </h4>
+        <Container>
+          <h6>Welcome to</h6>
           <span className="welcome">Long or Short Nails</span>
         </Container>
       </div>
       <div className="align-content-center justify-space-around ">
+        <h6 style={{ textAlign: "center" }}>Our Services</h6>
         <Services />
       </div>
     </div>

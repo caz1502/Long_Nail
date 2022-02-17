@@ -20,8 +20,8 @@ const typeDefs = gql`
   type Service {
     _id: ID
     name: String
-    description:String
-   
+    description: String
+    image: String
   }
 
   type Waxing {

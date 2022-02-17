@@ -8,12 +8,12 @@ const ServiceList = ({ services }) => {
       {services &&
         services.map((service) => (
           <Card key={service._id}>
-            {/* <img src={service.image} alt="pic" /> */}
+            <img src={`/images/${service.image}`} alt="" />
             {/* name of service */}
             <Card.Title>{service.name}</Card.Title>
             {/* description of service */}
             <Card.Text>{service.description}</Card.Text>
-                    </Card>
+          </Card>
         ))}
     </Row>
   );

@@ -9,8 +9,11 @@ const serviceSchema = new Schema({
   description: {
     type: String,
     required: true,
-  }
-  
+  },
+
+  Image: {
+    type: String,
+  },
 });
 
 const Service = model("Service", serviceSchema);

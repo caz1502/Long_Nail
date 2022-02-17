@@ -21,8 +21,8 @@ export const QUERY_ALL_SERVICE = gql`
       _id
       name
       description
-     
-    }
+      image
+         }
   }
 `;
 
@@ -32,6 +32,7 @@ export const QUERY_SINGLE_SERVICE = gql`
       _id
       name
       description
+      Image
     }
   }
 `;

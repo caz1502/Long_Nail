@@ -6,7 +6,7 @@ const RelaxationList = ({ relaxations}) => {
   return (
     <Container >
       <Row className=" justify-space-around ">
-        <h1>Relaxation</h1>
+         <span className="relaxation">Relaxation</span>
       </Row>
 
       {relaxations &&
