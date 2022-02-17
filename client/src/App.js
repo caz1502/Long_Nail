@@ -17,6 +17,7 @@ import Footer from './components/Footer';
 import Services from "./pages/Services";
 import Relaxation from "./pages/Relaxation";
 import Acrylic from './pages/Acrylic';
+import Shape from './pages/Shape';
 
 
 
@@ -77,6 +78,11 @@ function App() {
           <div>
             <Route exact path="/relaxation">
               <Relaxation />
+            </Route>
+          </div>
+          <div>
+            <Route exact path="/shape">
+              <Shape/>
             </Route>
           </div>
           <Footer />

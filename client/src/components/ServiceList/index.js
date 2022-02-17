@@ -1,5 +1,6 @@
+
 import React from "react";
-import { Card, Row} from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 import "../ServiceList/service.css";
 
 const ServiceList = ({ services }) => {

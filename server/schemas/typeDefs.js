@@ -15,6 +15,7 @@ const typeDefs = gql`
   type Shape {
     _id: ID
     name: String
+    image: String
   }
 
   type Service {

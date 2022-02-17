@@ -5,6 +5,11 @@ const shapeSchema = new Schema({
     type: String,
     required: true,
   },
+
+  image: {
+    type: String,
+  
+  },
 });
 
 const Shape = model("Shape", shapeSchema);

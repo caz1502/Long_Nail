@@ -1,26 +1,34 @@
 [
   {
-    "name": "Almond"
+    "name": "Almond",
+    "image": "/images/almond.jpg"
   },
   {
-    "name": "Ballarina"
+    "name": "Ballarina",
+    "image": "/images/ballarina.jpg"
   },
   {
-    "name": "Lipstick"
+    "name": "Lipstick",
+    "image": "/images/lipstick.jpg"
   },
   {
-    "name": "Oval"
+    "name": "Oval",
+    "image": "/images/oval.jpg"
   },
   {
-    "name": "Round"
+    "name": "Round",
+    "image": "/images/round.jpg"
   },
   {
-    "name": "Square"
+    "name": "Square",
+    "image": "/images/square.jpg"
   },
   {
-    "name": "Squoval"
+    "name": "Squoval",
+    "image": "/images/squoval.jpg"
   },
   {
-    "name": "Stilleto"
+    "name": "Stilleto",
+    "image": "/images/stilleto.jpg"
   }
 ]
