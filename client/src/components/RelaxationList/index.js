@@ -13,6 +13,7 @@ const RelaxationList = ({ relaxations}) => {
         relaxations.map((relaxation) => (
           <Table key={relaxation._id}>
             {/* name of service */}
+            
             <th>{relaxation.name}</th>
             <th>${relaxation.price}</th>
           </Table>

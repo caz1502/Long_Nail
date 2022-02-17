@@ -8,7 +8,7 @@ const ServiceList = ({ services }) => {
       {services &&
         services.map((service) => (
           <Card key={service._id}>
-            <img src={`/images/${service.image}`} alt="" />
+            <img src={service.image} alt="" />
             {/* name of service */}
             <Card.Title>{service.name}</Card.Title>
             {/* description of service */}

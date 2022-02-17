@@ -11,7 +11,7 @@ const serviceSchema = new Schema({
     required: true,
   },
 
-  Image: {
+  image: {
     type: String,
   },
 });
