@@ -46,7 +46,10 @@ const Header = () => {
                 Nail Shape
               </Link>
               <Link className="btn m-2" to="/colour">
-               Colours
+                Colours
+              </Link>
+              <Link className="btn m-2" to="/rateus">
+                Rate Us
               </Link>
             </>
           )}

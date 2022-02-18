@@ -19,6 +19,7 @@ import Relaxation from "./pages/Relaxation";
 import Acrylic from './pages/Acrylic';
 import Shape from './pages/Shape';
 import Colour from './pages/Colour';
+import Rateus from "./pages/Rateus";
 
 
 
@@ -89,6 +90,11 @@ function App() {
           <div>
             <Route exact path="/colour">
               <Colour />
+            </Route>
+          </div>
+          <div>
+            <Route exact path="/rateus">
+              <Rateus/>
             </Route>
           </div>
           <Footer />
