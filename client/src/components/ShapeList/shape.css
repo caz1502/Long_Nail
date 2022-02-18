@@ -3,9 +3,10 @@
 .shapeCard {
   border-color: #decba4;
   margin-top: 100px;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 .shapeImage {
-  border-radius: 10px;  
+  border-radius: 10px;
   width: 300px;
 }
 
@@ -13,5 +14,4 @@
   font-family: "Playball", cursive;
   font-size: 4em;
   margin-top: 1em;
- 
 }

@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playball&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playball&display=swap");
 
 .acrylics {
-    font-family: 'Playball', cursive;
-      font-size: 4em;
-      margin-top: 1em;
-      margin-bottom: 1em;
+  font-family: "Playball", cursive;
+  font-size: 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.acrylicCard {
+  width: 25em;
+  text-align: center;
+  border-color: #decba4;
+  background-image: linear-gradient(to top, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border-width: 0.2em;
 }

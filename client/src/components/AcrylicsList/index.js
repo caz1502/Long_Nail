@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Container, Row } from "react-bootstrap";
+import { Container, Row, Card } from "react-bootstrap";
 import "../AcrylicsList/acrylics.css";
 
 const AcrylicList = ({ acrylics }) =>{
@@ -9,15 +9,31 @@ const AcrylicList = ({ acrylics }) =>{
       <Row className=" justify-space-around ">
         <span className="acrylics">Acrylic Nails</span>
       </Row>
-      {acrylics &&
-        acrylics.map((acrylic) => (
-          <Table key={acrylic._id}>
-            {/* name of service */}
-            <th>{acrylic.name}</th>
-            {/* description of service */}
-            <th>{acrylic.price}</th>
-          </Table>
-        ))}
+      <Row className="align-content-center justify-space-around ">
+        {acrylics &&
+          acrylics.map((acrylic) => (
+            <Card key={acrylic._id} className="acrylicCard">
+              {/* name of acrylic */}
+              <Card.Title>{acrylic.name}</Card.Title>
+              {/* description of acrylic */}
+              <Card.Body
+                style={{
+                  fontSize: "40px",
+                  textAlign: "left",
+                  marginLeft: "30px",
+                }}
+              >
+                ${acrylic.price}
+              </Card.Body>
+              <Card.Footer>
+                <i
+                  style={{ fontSize: "30px", marginTop: "10px" }}
+                  className="fa-solid fa-cart-plus"
+                ></i>
+              </Card.Footer>
+            </Card>
+          ))}
+      </Row>
     </Container>
   );
 };

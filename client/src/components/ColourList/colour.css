@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playball&display=swap");
 
 .colourCard {
-border-color: #DECBA4;
-
-margin:1em;
-border-width: 0.2em;
-
+  border-color: #decba4;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 1em;
+  border-width: 0.2em;
 }
 
 .colourImage {
- border-radius: 10px; 
- 
+  border-radius: 10px;
+  width: 100px;
 }
 
 .colour {

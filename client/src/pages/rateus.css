@@ -10,15 +10,19 @@
 .count {
   align-items: center;
   font-size: 6em;
-  }
+}
 
 .button-wrapper button {
-  background-color: white !important;
   border: none;
   margin-top: 1em;
 }
 
 .rate {
-  margin-bottom: 1em;
-  
+  margin-bottom: 0.5em;
+}
+
+.far {
+  font-size: 2em;
+  color: black;
+  margin-left: 50px;
 }

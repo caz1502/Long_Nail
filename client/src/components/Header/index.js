@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="av-container text-light flex-row align-center">
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
+      <div  className="container flex-row justify-space-between-lg justify-center ">
         <div>
           {Auth.loggedIn() ? (
             <>

@@ -8,6 +8,7 @@ import {
 import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import "./app.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Home from './pages/Home';
 import Signup from './pages/Signup';

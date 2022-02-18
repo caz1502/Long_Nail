@@ -1,6 +1,5 @@
-.btn{
-    width: 10em;
-    background-color: #DECBA4;
-    
+.btn {
+  width: 10em;
+  background-image: linear-gradient(to top, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  font-weight: 600;
 }
-

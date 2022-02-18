@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Table } from "react-bootstrap";
+import { Container, Row, Card } from "react-bootstrap";
 import "../RelaxationList/relaxation.css";
 
 const RelaxationList = ({ relaxations}) => {
@@ -8,16 +8,26 @@ const RelaxationList = ({ relaxations}) => {
       <Row className="justify-space-around">
         <span className="relaxation">Relaxation</span>
       </Row>
-
-      {relaxations &&
-        relaxations.map((relaxation) => (
-          <Table style={{"borderWidth":"1px", 'borderColor':"#aaaaaa", 'borderStyle':'solid'}} key={relaxation._id}>
-            {/* name of service */}
-            <ul>{relaxation.name}</ul>
-            {/* price of service */}
-            
-          </Table>
-        ))}
+      <Row className="align-content-center justify-space-around ">
+        {relaxations &&
+          relaxations.map((relaxation) => (
+            <Card key={relaxation._id} className="relaxationCard">
+              {/* name of service */}
+              <Card.Title>{relaxation.name}</Card.Title>
+              {/* price of service */}
+              <Card.Body style={{ fontSize: "40px", textAlign: "left",marginLeft:"30px" }}>
+                {" "}
+                ${relaxation.price}
+              </Card.Body>
+              <Card.Footer>
+                <i
+                  style={{ fontSize: "30px", marginTop: "10px" }}
+                  className="fa-solid fa-cart-plus"
+                ></i>
+              </Card.Footer>
+            </Card>
+          ))}
+      </Row>
     </Container>
   );
 };
