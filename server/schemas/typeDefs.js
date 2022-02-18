@@ -46,6 +46,7 @@ const typeDefs = gql`
   type Colour {
     _id: ID
     name: String
+    image:String
   }
 
   type Query {

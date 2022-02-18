@@ -5,6 +5,10 @@ const colourSchema = new Schema({
     type: String,
     required: true,
   },
+  image: {
+    type: String,
+    
+  },
 });
 
 const Colour = model("Colour", colourSchema);

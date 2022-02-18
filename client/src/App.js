@@ -18,6 +18,7 @@ import Services from "./pages/Services";
 import Relaxation from "./pages/Relaxation";
 import Acrylic from './pages/Acrylic';
 import Shape from './pages/Shape';
+import Colour from './pages/Colour';
 
 
 
@@ -82,7 +83,12 @@ function App() {
           </div>
           <div>
             <Route exact path="/shape">
-              <Shape/>
+              <Shape />
+            </Route>
+          </div>
+          <div>
+            <Route exact path="/colour">
+              <Colour />
             </Route>
           </div>
           <Footer />

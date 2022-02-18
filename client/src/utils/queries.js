@@ -42,6 +42,7 @@ export const QUERY_ALL_COLOUR = gql`
     colours {
       _id
       name
+      image
     }
   }
 `;
@@ -51,6 +52,7 @@ export const QUERY_SINGLE_COLOUR = gql`
     colour(colourId: $colourId) {
       _id
       name
+      image
     }
   }
 `;

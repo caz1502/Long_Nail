@@ -1,14 +1,74 @@
 [
     {
-        "name": "Red"
+        "name": "White Lotus",
+        "image":"/images/001.jpg"
     },
-    {
-        "name": "Blue"
+   {
+        "name": "French Style",
+        "image":"/images/002.jpg"
     },
-    {
-        "name": "Orange"
+   {
+        "name": "Pink Cream",
+        "image":"/images/003.jpg"
     },
-    {
-        "name": "Green"
+   {
+        "name": "Mimosa",
+        "image":"/images/004.jpg"
+    },
+      {
+        "name": "Sunny Day",
+        "image":"/images/005.jpg"
+    },
+      {
+        "name": "Hawaiian Party",
+        "image":"/images/006.jpg"
+    },
+      {
+        "name": "Nature of Flame",
+        "image":"/images/007.jpg"
+    },
+      {
+        "name": "Flamenco Dancer",
+        "image":"/images/009.jpg"
+    },
+      {
+        "name": "Coral",
+        "image":"/images/010.jpg"
+    },
+      {
+        "name": "Strawberry Marmelaide",
+        "image":"/images/011.jpg"
+    },
+      {
+        "name": "Genuine Lady",
+        "image":"/images/012.jpg"
+    },
+      {
+        "name": "Nature of Flame",
+        "image":"/images/017.jpg"
+    },
+      {
+        "name": "Berry Cocktail",
+        "image":"/images/019.jpg"
+    },
+      {
+        "name": "Gothic Pink",
+        "image":"/images/020.jpg"
+    },
+      {
+        "name": "Pink Neon",
+        "image":"/images/021.jpg"
+    },
+      {
+        "name": "Miss E Mi",
+        "image":"/images/022.jpg"
+    },
+      {
+        "name": "Blueberry Yoghurt",
+        "image":"/images/024.jpg"
+    },
+      {
+        "name": "Lilac Poeopy",
+        "image":"/images/025.jpg"
     }
 ]
