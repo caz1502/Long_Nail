@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playball&display=swap");
+
 .shapeCard {
-border-color: #DECBA4;
-margin-top: 100px;
+  border-color: #decba4;
+  margin-top: 100px;
 }
 .shapeImage {
- border-radius: 10px; 
+  border-radius: 10px;
+}
+
+.shape {
+  font-family: "Playball", cursive;
+  font-size: 4em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }

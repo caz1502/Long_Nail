@@ -23,9 +23,14 @@
         "name": "Hawaiian Party",
         "image":"/images/006.jpg"
     },
+ 
       {
         "name": "Nature of Flame",
         "image":"/images/007.jpg"
+    },
+           {
+        "name": "Luxurious Red",
+        "image":"/images/008.jpg"
     },
       {
         "name": "Flamenco Dancer",
@@ -43,8 +48,24 @@
         "name": "Genuine Lady",
         "image":"/images/012.jpg"
     },
+       {
+        "name": "Cappuccino",
+        "image":"/images/013.jpg"
+    },
+       {
+        "name": "Nutmeg",
+        "image":"/images/014.jpg"
+    },
+         {
+        "name": "Chocolate Mocco",
+        "image":"/images/015.jpg"
+    },
+         {
+        "name": "Amokey Eyes",
+        "image":"/images/016.jpg"
+    },
       {
-        "name": "Nature of Flame",
+        "name": "Americano",
         "image":"/images/017.jpg"
     },
       {
@@ -70,5 +91,42 @@
       {
         "name": "Lilac Poeopy",
         "image":"/images/025.jpg"
+    },
+       {
+        "name": "Grape Fresh",
+        "image":"/images/026.jpg"
+    },
+       {
+        "name": "Purple Glow",
+        "image":"/images/027.jpg"
+    },
+         {
+        "name": "Twilight",
+        "image":"/images/028.jpg"
+    },
+         {
+        "name": "Cabernet Bordeaux",
+        "image":"/images/029.jpg"
+    },
+         {
+        "name": "Sky of Stars",
+        "image":"/images/031.jpg"
+    },
+         {
+        "name": "Indian Saffire",
+        "image":"/images/032.jpg"
+    },
+         {
+        "name": "Indigo",
+        "image":"/images/033.jpg"
+    },
+           {
+        "name": "Turquois",
+        "image":"/images/034.jpg"
+    },
+           {
+        "name": "Tiffany Gift",
+        "image":"/images/035.jpg"
     }
 ]
+
