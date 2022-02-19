@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row, Card } from "react-bootstrap";
+import { Container, Row, Card, Button } from "react-bootstrap";
 import "../AcrylicsList/acrylics.css";
 
-const AcrylicList = ({ acrylics }) =>{
-
+const AcrylicList = ({ acrylics }) => {
   return (
     <Container>
       <Row className=" justify-space-around ">
@@ -14,11 +13,17 @@ const AcrylicList = ({ acrylics }) =>{
           acrylics.map((acrylic) => (
             <Card key={acrylic._id} className="acrylicCard">
               {/* name of acrylic */}
-              <Card.Title>{acrylic.name}</Card.Title>
+              <Card.Title
+                style={{
+                  fontSize: "20px",
+                }}
+              >
+                {acrylic.name}
+              </Card.Title>
               {/* description of acrylic */}
               <Card.Body
                 style={{
-                  fontSize: "40px",
+                  fontSize: "20px",
                   textAlign: "left",
                   marginLeft: "30px",
                 }}
@@ -26,10 +31,12 @@ const AcrylicList = ({ acrylics }) =>{
                 ${acrylic.price}
               </Card.Body>
               <Card.Footer>
-                <i
-                  style={{ fontSize: "30px", marginTop: "10px" }}
-                  className="fa-solid fa-cart-plus"
-                ></i>
+                <Button>
+                  <i
+                    style={{ fontSize: "15px", marginTop: "10px" }}
+                    className="fa-solid fa-cart-plus"
+                  ></i>
+                </Button>
               </Card.Footer>
             </Card>
           ))}

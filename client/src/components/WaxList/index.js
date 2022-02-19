@@ -1,24 +1,24 @@
 import React from "react";
 import { Container, Row, Card, Button } from "react-bootstrap";
-import "../RelaxationList/relaxation.css";
+import "../WaxList/wax.css";
 
-const RelaxationList = ({ relaxations }) => {
+const WaxList = ({ waxings }) => {
   return (
     <Container>
       <Row className="justify-space-around">
-        <span className="relaxation">Relaxation</span>
+        <span className="waxing">Waxing</span>
       </Row>
       <Row className="align-content-center justify-space-around ">
-        {relaxations &&
-          relaxations.map((relaxation) => (
-            <Card key={relaxation._id} className="relaxationCard">
+        {waxings &&
+          waxings.map((waxing) => (
+            <Card key={waxing._id} className="waxingCard">
               {/* name of service */}
               <Card.Title
                 style={{
-                  fontSize: "20px"
+                  fontSize: "20px",
                 }}
               >
-                {relaxation.name}
+                {waxing.name}
               </Card.Title>
               {/* price of service */}
               <Card.Body
@@ -29,7 +29,7 @@ const RelaxationList = ({ relaxations }) => {
                 }}
               >
                 {" "}
-                ${relaxation.price}
+                ${waxing.price}
               </Card.Body>
               <Card.Footer>
                 <Button>
@@ -46,4 +46,4 @@ const RelaxationList = ({ relaxations }) => {
   );
 };
 
-export default RelaxationList;
+export default WaxList;

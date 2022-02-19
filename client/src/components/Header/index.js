@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="av-container text-light flex-row align-center">
-      <div  className="container flex-row justify-space-between-lg justify-center ">
+      <div className="container flex-row justify-space-between-lg justify-center ">
         <div>
           {Auth.loggedIn() ? (
             <>
@@ -36,6 +36,9 @@ const Header = () => {
               <Link className="btn m-2" to="/relaxation">
                 Relaxation
               </Link>
+              <Link className="btn m-2" to="/waxing">
+                Waxing
+              </Link>
               <Link className="btn m-2 " to="/acrylic">
                 Acrylics
               </Link>
@@ -50,6 +53,9 @@ const Header = () => {
               </Link>
               <Link className="btn m-2" to="/rateus">
                 Rate Us
+              </Link>
+              <Link className="btn m-2" to="/basket">
+                <i className="fa-solid fa-cart-plus"></i>
               </Link>
             </>
           )}

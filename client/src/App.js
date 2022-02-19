@@ -21,6 +21,9 @@ import Acrylic from './pages/Acrylic';
 import Shape from './pages/Shape';
 import Colour from './pages/Colour';
 import Rateus from "./pages/Rateus";
+import Basket from './pages/Basket';
+import Waxing from "./pages/Waxing";
+// import Cart from "./pages/Cart";
 
 
 
@@ -74,6 +77,11 @@ function App() {
             </Route>
           </div>
           <div>
+            <Route exact path="/waxing">
+              <Waxing />
+            </Route>
+          </div>
+          <div>
             <Route exact path="/acrylic">
               <Acrylic />
             </Route>
@@ -95,7 +103,12 @@ function App() {
           </div>
           <div>
             <Route exact path="/rateus">
-              <Rateus/>
+              <Rateus />
+            </Route>
+          </div>
+          <div>
+            <Route exact path="/basket">
+              <Basket />
             </Route>
           </div>
           <Footer />
