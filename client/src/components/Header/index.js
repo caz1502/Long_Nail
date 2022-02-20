@@ -2,17 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 import Auth from "../../auth";
+import UIfx from "uifx";
+import bellAudio from "../../assets/beep.mp3";
 
-
-
+const beep = new UIfx(bellAudio, {
+  volume: 1,
+});
 
 const Header = () => {
   const logout = (event) => {
     event.preventDefault();
     Auth.logout();
-
-  
   };
+
   return (
     <header className="av-container text-light flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center ">
@@ -60,10 +62,14 @@ const Header = () => {
                 Rate Us
               </Link>
               <Link className="btn m-2" to="/basket">
-                  <i className="fa-solid fa-cart-plus"></i>
-                  {2}
+                <i className="fa-solid fa-cart-plus"></i>
+                {2}
               </Link>
-           
+
+              <button className="btn m-2" onClick={() => beep.play()}>
+                {" "}
+                Call Assistance
+              </button>
             </>
           )}
         </div>
