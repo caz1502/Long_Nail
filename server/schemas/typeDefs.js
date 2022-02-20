@@ -49,6 +49,12 @@ const typeDefs = gql`
     image: String
   }
 
+  type Order {
+    _id: ID
+    purchaseDate: String
+  
+  }
+
   type Query {
     users: [User]
     user(username: String!): User

@@ -21,9 +21,9 @@ import Acrylic from "./pages/Acrylic";
 import Shape from "./pages/Shape";
 import Colour from "./pages/Colour";
 import Rateus from "./pages/Rateus";
-import Basket from "./pages/Basket";
+
 import Waxing from "./pages/Waxing";
-// import Cart from "./pages/Cart";
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -103,11 +103,7 @@ function App() {
               <Rateus />
             </Route>
           </div>
-          <div>
-            <Route exact path="/basket">
-              <Basket />
-            </Route>
-          </div>
+     
           <Footer />
         </div>
       </Router>

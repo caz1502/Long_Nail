@@ -3,10 +3,15 @@ import { Link } from "react-router-dom";
 import "./header.css";
 import Auth from "../../auth";
 
+
+
+
 const Header = () => {
   const logout = (event) => {
     event.preventDefault();
     Auth.logout();
+
+  
   };
   return (
     <header className="av-container text-light flex-row align-center">
@@ -55,8 +60,10 @@ const Header = () => {
                 Rate Us
               </Link>
               <Link className="btn m-2" to="/basket">
-                <i className="fa-solid fa-cart-plus"></i>
+                  <i className="fa-solid fa-cart-plus"></i>
+                  {2}
               </Link>
+           
             </>
           )}
         </div>

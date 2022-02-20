@@ -19,7 +19,7 @@ const Footer = () => {
 
         <h6> ⋆★⋆★⋆★⋆ Thank you for visiting ⋆★⋆★⋆★⋆</h6>
         <div>
-          <p> {moment().format("MMMM Do YYYY")} </p>
+          <p> {moment().format("dddd, MMMM Do YYYY, h:mm a")} </p>
         </div>
       </div>
     </footer>
