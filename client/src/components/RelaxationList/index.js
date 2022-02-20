@@ -15,7 +15,7 @@ const RelaxationList = ({ relaxations }) => {
               {/* name of service */}
               <Card.Title
                 style={{
-                  fontSize: "20px"
+                  fontSize: "20px",
                 }}
               >
                 {relaxation.name}

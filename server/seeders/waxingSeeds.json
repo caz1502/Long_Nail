@@ -1,58 +1,58 @@
 [
   {
     "name": "Eyebrows",
-    "price": 15.00
+    "price": 15.0
   },
   {
     "name": "Stomach",
-    "price": 25.00
+    "price": 25.0
   },
   {
     "name": "Eyebrows",
-    "price": 15.00
+    "price": 15.0
   },
   {
     "name": "Lip/Chin",
-    "price": 15.00
+    "price": 15.0
   },
   {
     "name": "Full arms",
-    "price": 40.00
+    "price": 40.0
   },
   {
     "name": "Half arms",
-    "price": 25.00
+    "price": 25.0
   },
   {
     "name": "Underarms",
-    "price": 15.00
+    "price": 15.0
   },
   {
     "name": "Brazilian",
-    "price": 40.00
+    "price": 40.0
   },
   {
     "name": "G - String",
-    "price": 30.00
+    "price": 30.0
   },
   {
     "name": "Bikini line",
-    "price": 30.00
+    "price": 30.0
   },
   {
     "name": "Full legs",
-    "price": 50.00
+    "price": 50.0
   },
   {
     "name": "Full legs & Bikini line",
-    "price": 70.00
+    "price": 70.0
   },
   {
     "name": "Full legs & G - String",
-    "price": 70.00
+    "price": 70.0
   },
   {
     "name": "Top legs",
-    "price": 20.00
+    "price": 20.0
   }
 ]

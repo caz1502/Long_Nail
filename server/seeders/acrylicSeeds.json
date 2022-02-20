@@ -1,30 +1,30 @@
 [
   {
     "name": "Full Set Acrylic",
-    "price": 60.00
+    "price": 60.0
   },
   {
     "name": "Full Set Colour tips",
-    "price": 65.00
+    "price": 65.0
   },
   {
     "name": "Full Set Glitter",
-    "price": 75.00
+    "price": 75.0
   },
   {
     "name": "Infill Acrylic",
-    "price": 40.00
+    "price": 40.0
   },
   {
     "name": "Infill Colour tips",
-    "price": 45.00
+    "price": 45.0
   },
   {
     "name": "Infill Glitter",
-    "price": 50.00
+    "price": 50.0
   },
   {
     "name": "Overlay",
-    "price": 45.00
+    "price": 45.0
   }
 ]

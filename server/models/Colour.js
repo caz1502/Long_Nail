@@ -7,7 +7,6 @@ const colourSchema = new Schema({
   },
   image: {
     type: String,
-    
   },
 });
 

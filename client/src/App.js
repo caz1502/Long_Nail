@@ -1,47 +1,44 @@
-import React from 'react';
+import React from "react";
 import {
   ApolloClient,
   InMemoryCache,
   ApolloProvider,
   createHttpLink,
-} from '@apollo/client';
-import { setContext } from '@apollo/client/link/context';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+} from "@apollo/client";
+import { setContext } from "@apollo/client/link/context";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./app.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-import Home from './pages/Home';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Home from "./pages/Home";
+// import Signup from "./pages/Signup";
+// import Login from "./pages/Login";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Services from "./pages/Services";
 import Relaxation from "./pages/Relaxation";
-import Acrylic from './pages/Acrylic';
-import Shape from './pages/Shape';
-import Colour from './pages/Colour';
+import Acrylic from "./pages/Acrylic";
+import Shape from "./pages/Shape";
+import Colour from "./pages/Colour";
 import Rateus from "./pages/Rateus";
-import Basket from './pages/Basket';
+import Basket from "./pages/Basket";
 import Waxing from "./pages/Waxing";
 // import Cart from "./pages/Cart";
 
-
-
-
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: "/graphql",
 });
 
 // Construct request middleware that will attach the JWT token to every request as an `authorization` header
 const authLink = setContext((_, { headers }) => {
   // get the authentication token from local storage if it exists
-  const token = localStorage.getItem('id_token');
+  const token = localStorage.getItem("id_token");
   // return the headers to the context so httpLink can read them
   return {
     headers: {
       ...headers,
-      authorization: token ? `Bearer ${token}` : '',
+      authorization: token ? `Bearer ${token}` : "",
     },
   };
 });
@@ -63,13 +60,13 @@ function App() {
               <Home />
             </Route>
 
-            <Route exact path="/login">
+            {/* <Route exact path="/login">
               <Login />
             </Route>
 
             <Route exact path="/signup">
               <Signup />
-            </Route>
+            </Route> */}
           </div>
           <div>
             <Route exact path="/services">

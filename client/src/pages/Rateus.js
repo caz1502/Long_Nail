@@ -15,7 +15,6 @@ const Rateus = () => {
         <div>{count}</div>
       </Row>
       <Row className="align-content-center justify-space-around ">
-        
         <div className="button-wrapper ">
           <button
             onClick={() => {
@@ -23,10 +22,7 @@ const Rateus = () => {
             }}
           >
             {" "}
-            <i
-              style={{ backgroundColor: "red" }}
-              className="far fa-frown"
-            ></i>
+            <i style={{ backgroundColor: "red" }} className="far fa-frown"></i>
           </button>
 
           <button
@@ -36,7 +32,7 @@ const Rateus = () => {
           >
             {" "}
             <i
-              style={{ backgroundColor: "lightgreen"}}
+              style={{ backgroundColor: "lightgreen" }}
               className="far fa-smile"
             ></i>
           </button>

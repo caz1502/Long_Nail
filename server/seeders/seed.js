@@ -1,6 +1,5 @@
 const db = require("../config/connection");
 
-
 const {
   User,
   Acrylic,
@@ -37,58 +36,50 @@ db.once("open", async () => {
   }
   console.log("🎉 Acrylic Seeded! 🎉");
 
-    try {
-      await Colour.deleteMany({});
-      await Colour.create(colourSeeds);
-    } catch (err) {
-      console.error(err);
-      process.exit(1);
-    }
+  try {
+    await Colour.deleteMany({});
+    await Colour.create(colourSeeds);
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
   console.log("🎉 Colour Seeded! 🎉");
-  
-      try {
-        await Relaxation.deleteMany({});
-        await Relaxation.create(relaxationSeeds);
-      } catch (err) {
-        console.error(err);
-        process.exit(1);
-      }
+
+  try {
+    await Relaxation.deleteMany({});
+    await Relaxation.create(relaxationSeeds);
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
   console.log("🎉 Relaxation Seeded! 🎉");
-  
-     try {
-       await Service.deleteMany({});
-       await Service.create(serviceSeeds);
-     } catch (err) {
-       console.error(err);
-       process.exit(1);
-     }
-     console.log("🎉 Service Seeded! 🎉");
 
-     try {
-       await Shape.deleteMany({});
-       await Shape.create(shapeSeeds);
-     } catch (err) {
-       console.error(err);
-       process.exit(1);
-     }
+  try {
+    await Service.deleteMany({});
+    await Service.create(serviceSeeds);
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+  console.log("🎉 Service Seeded! 🎉");
+
+  try {
+    await Shape.deleteMany({});
+    await Shape.create(shapeSeeds);
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
   console.log("🎉 Shapes Seeded! 🎉");
-  
-  
-     try {
-       await Waxing.deleteMany({});
-       await Waxing.create(waxingSeeds);
-     } catch (err) {
-       console.error(err);
-       process.exit(1);
-     }
-     console.log("🎉 Waxing Seeded! 🎉");
 
-
-
-
-
-
-
+  try {
+    await Waxing.deleteMany({});
+    await Waxing.create(waxingSeeds);
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+  console.log("🎉 Waxing Seeded! 🎉");
 
   process.exit(0);
 });

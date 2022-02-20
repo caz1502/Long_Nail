@@ -14,7 +14,7 @@ const Acrylic = () => {
 
   return (
     <div>
-     <AcrylicsList acrylics={acrylics} />
+      <AcrylicsList acrylics={acrylics} />
     </div>
   );
 };

@@ -10,7 +10,8 @@
 .waxingCard {
   width: 15em;
   text-align: center;
-  border-color: #decba4;
+  border: none;
+  margin-right: 20px;
   background-image: linear-gradient(to top, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   box-shadow: 10px 10px 5px #aaaaaa;
   border-width: 0.2em;

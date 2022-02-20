@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
-import Auth from '../../auth';
+import Auth from "../../auth";
 
 const Header = () => {
   const logout = (event) => {

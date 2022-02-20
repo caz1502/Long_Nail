@@ -7,7 +7,7 @@ import ColourList from "../components/ColourList/index.js";
 // Import the query we are going to execute from its file
 import { QUERY_ALL_COLOUR } from "../utils/queries";
 
-const Colour= () => {
+const Colour = () => {
   // Execute the query on component load
   const { data } = useQuery(QUERY_ALL_COLOUR);
 

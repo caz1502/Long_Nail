@@ -8,7 +8,6 @@ const shapeSchema = new Schema({
 
   image: {
     type: String,
-  
   },
 });
 

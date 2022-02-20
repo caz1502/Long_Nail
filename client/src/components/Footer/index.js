@@ -1,6 +1,6 @@
-import React from 'react';
-import { useLocation, useHistory } from 'react-router-dom';
-
+import React from "react";
+import { useLocation, useHistory } from "react-router-dom";
+import moment from "moment";
 
 const Footer = () => {
   const location = useLocation();
@@ -16,7 +16,11 @@ const Footer = () => {
             &larr; Go Back
           </button>
         )}
+
         <h6> ⋆★⋆★⋆★⋆ Thank you for visiting ⋆★⋆★⋆★⋆</h6>
+        <div>
+          <p> {moment().format("MMMM Do YYYY")} </p>
+        </div>
       </div>
     </footer>
   );

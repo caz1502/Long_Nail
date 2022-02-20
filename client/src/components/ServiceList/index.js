@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, Row } from "react-bootstrap";
 import "../ServiceList/service.css";
@@ -9,7 +8,7 @@ const ServiceList = ({ services }) => {
       {services &&
         services.map((service) => (
           <Card key={service._id} className="serviceCard">
-            <img src={service.image} alt="" className="serviceImage"/>
+            <img src={service.image} alt="" className="serviceImage" />
             {/* name of service */}
             <Card.Title>{service.name}</Card.Title>
             {/* description of service */}

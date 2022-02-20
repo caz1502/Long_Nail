@@ -1,22 +1,21 @@
 [
   {
     "name": "Manicure",
-    "price": 25.00
+    "price": 25.0
   },
 
-    {
+  {
     "name": "Spa Pedicure",
-    "price": 40.00
+    "price": 40.0
   },
 
-    {
+  {
     "name": "Manicure & Spa Pedicure",
-    "price": 60.00
+    "price": 60.0
   },
 
-    {
+  {
     "name": "Buff, Shape & Polish",
-    "price": 20.00
+    "price": 20.0
   }
-
 ]
