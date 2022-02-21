@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Card, Button } from "react-bootstrap";
+import { Container, Row, Card} from "react-bootstrap";
 import "../WaxList/wax.css";
 
 const WaxList = ({ waxings }) => {
