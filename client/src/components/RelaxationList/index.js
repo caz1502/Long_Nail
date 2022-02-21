@@ -23,7 +23,7 @@ const RelaxationList = ({ relaxations }) => {
               {/* price of service */}
               <Card.Body
                 style={{
-                  fontSize: "20px",
+                  fontSize: "30px",
                   textAlign: "left",
                   marginLeft: "30px",
                 }}
@@ -31,14 +31,14 @@ const RelaxationList = ({ relaxations }) => {
                 {" "}
                 ${relaxation.price}
               </Card.Body>
-              <Card.Footer>
+              {/* <Card.Footer>
                 <Button>
                   <i
                     style={{ fontSize: "15px", marginTop: "10px" }}
                     className="fa-solid fa-cart-plus"
                   ></i>
                 </Button>
-              </Card.Footer>
+              </Card.Footer> */}
             </Card>
           ))}
       </Row>
