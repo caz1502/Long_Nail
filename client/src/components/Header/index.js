@@ -61,10 +61,10 @@ const Header = () => {
               <Link className="btn m-2" to="/rateus">
                 Rate Us
               </Link>
-              <Link className="btn m-2" to="/basket">
+              {/* <Link className="btn m-2" to="/basket">
                 <i className="fa-solid fa-cart-plus"></i>
                 {2}
-              </Link>
+              </Link> */}
 
               <button className="btn m-2"
                 onClick={() => beep.play()}
