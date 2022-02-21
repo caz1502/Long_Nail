@@ -4,15 +4,14 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server/server.js && npm run seed",
         "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
         "install": "cd server && npm i && cd ../client && npm i",
         "seed": "cd server && npm run seed",
         "build": "cd client && npm run build",
         "server": "nodemon server/server",
-        "client": "npm start ---prefix client",
-        "data:import": "node server/seed",
-        "data:destroy": "node server/seed -d"
+        "client": "npm start ---prefix client"
+      
   },
   "keywords": [],
   "author": "",
