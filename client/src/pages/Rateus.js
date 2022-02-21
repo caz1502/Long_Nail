@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 
 import "./rateus.css";
 
@@ -12,7 +12,7 @@ const Rateus = () => {
         <span className="rate">How did we do?</span>
       </Row>
       <Row className="align-content-center justify-space-around ">
-        <div>{count}</div>
+        <div style={{fontFamily:"arial"}}>{count}</div>
       </Row>
       <Row className="align-content-center justify-space-around ">
         <div className="button-wrapper ">
@@ -36,6 +36,15 @@ const Rateus = () => {
               className="far fa-smile"
             ></i>
           </button>
+        </div>
+      </Row>
+      <Row className="align-content-center justify-space-around ">
+        <div>
+          <button style={{fontSize:"20px", fontFamily:"arial"}}
+            onClick={() => {
+              setCount(0);
+            }}
+          >Reset</button>
         </div>
       </Row>
     </Container>
