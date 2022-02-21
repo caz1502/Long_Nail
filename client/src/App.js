@@ -21,7 +21,7 @@ import Acrylic from "./pages/Acrylic";
 import Shape from "./pages/Shape";
 import Colour from "./pages/Colour";
 import Rateus from "./pages/Rateus";
-
+import Basket from "./pages/Basket"
 import Waxing from "./pages/Waxing";
 
 
@@ -99,11 +99,16 @@ function App() {
             </Route>
           </div>
           <div>
+            <Route exact path="/basket">
+              <Basket />
+            </Route>
+          </div>
+          <div>
             <Route exact path="/rateus">
               <Rateus />
             </Route>
           </div>
-     
+
           <Footer />
         </div>
       </Router>

@@ -1,8 +1,14 @@
 import React from "react";
-import BasketList from "../components/BasketList/index.js";
+import { Container, Row, Card, Button } from "react-bootstrap";
+
 
 const Basket = () => {
-  return <div></div>;
+  return <div>
+
+ 
+  </div>;
+
+
 };
 
 export default Basket;

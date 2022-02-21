@@ -66,7 +66,9 @@ const Header = () => {
                 {2}
               </Link>
 
-              <button className="btn m-2" onClick={() => beep.play()}>
+              <button className="btn m-2"
+                onClick={() => beep.play()}
+              >
                 {" "}
                 Call Assistance
               </button>
